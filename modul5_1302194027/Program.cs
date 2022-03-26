@@ -14,14 +14,31 @@ public class SayaTubeVideo
         this.id = r.Next(100000);
         string fiveDigit = this.id.ToString("D5");
 
+        //DbC preconditions
+        Contract.Requires(title != null && title.Length <= 200);
+
         playCount = 0;
         this.title = title;
     }
 
-    public void IncreasePlayCount(int jmlAngka)
+    public void IncreasePlayCount(int playcount)
     {
-        this.playCount = jmlAngka;
-        jmlAngka += 1;
+        //DbC preconditions
+        Contract.Requires(playcount > 0 && playcount <= 25000000);
+
+        //Exception
+        try
+        {
+            checked
+            {
+                playcount += 1;
+            }
+        }
+        catch (OverflowException e)
+        {
+            Console.WriteLine("CHECKED and CAUGHT:  " + e.ToString());
+        }
+        this.playCount = playcount;
     }
 
     public void PrintVideoDetails()
@@ -40,6 +57,9 @@ public class SayaTubeUser
 
     public SayaTubeUser(string Username)
     {
+        //DbC preconditions
+        Contract.Requires(Username != null && Username.Length <= 100);
+
         this.Username = Username;
         this.uploadedVideos = new List<SayaTubeVideo>();
     }
@@ -51,13 +71,18 @@ public class SayaTubeUser
 
     public void AddVideo(SayaTubeVideo x)
     {
-        uploadedVideos.Add(x);
+        //DbC preconditions
+        Contract.Requires(x != null);
 
+        uploadedVideos.Add(x);
     }
 
     public void PrintAllVideoPlaycount()
     {
         int i = 1;
+
+        //DbC postconditions
+        Contract.Ensures(uploadedVideos.Count() <= 8);
 
         Console.WriteLine("User: " + this.Username);
         while (i < uploadedVideos.Count)

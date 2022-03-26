@@ -1,0 +1,15 @@
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\bin\Debug\net6.0\modul5_1302194027.exe
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\bin\Debug\net6.0\modul5_1302194027.deps.json
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\bin\Debug\net6.0\modul5_1302194027.runtimeconfig.json
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\bin\Debug\net6.0\modul5_1302194027.dll
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\bin\Debug\net6.0\modul5_1302194027.pdb
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.csproj.AssemblyReference.cache
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.AssemblyInfoInputs.cache
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.AssemblyInfo.cs
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.csproj.CoreCompileInputs.cache
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.dll
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\refint\modul5_1302194027.dll
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.pdb
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\modul5_1302194027.genruntimeconfig.cache
+C:\Users\UZI\praktikum_kpl\modul5_1302194027\modul5_1302194027\obj\Debug\net6.0\ref\modul5_1302194027.dll
